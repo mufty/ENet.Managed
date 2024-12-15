@@ -19,6 +19,51 @@ namespace ENet.Managed
         /// </summary>
         public bool IsNull => m_Native == null;
 
+        public uint ConnectID
+        {
+            get
+            {
+                ThrowIfNull();
+                return m_Native->ConnectID;
+            }
+        }
+
+        public ushort IncomingPeerID
+        {
+            get
+            {
+                ThrowIfNull();
+                return m_Native->IncomingPeerID;
+            }
+        }
+
+        public byte IncomingSessionID
+        {
+            get
+            {
+                ThrowIfNull();
+                return m_Native->IncomingSessionID;
+            }
+        }
+
+        public ushort OutgoingPeerID
+        {
+            get
+            {
+                ThrowIfNull();
+                return m_Native->OutgoingPeerID;
+            }
+        }
+
+        public ushort OutgoingSessionID
+        {
+            get
+            {
+                ThrowIfNull();
+                return m_Native->OutgoingSessionID;
+            }
+        }
+
         /// <summary>
         /// Peer state.
         /// </summary>
