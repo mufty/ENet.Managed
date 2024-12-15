@@ -4,6 +4,8 @@
 [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/ENet.Managed?label=version)][nuget]
 [![Build status](https://img.shields.io/github/workflow/status/moien007/ENet.Managed/.NET)](https://github.com/moien007/ENet.Managed/actions)
 
+Fork is exposing peer IDs
+
 ## ENet.Managed
 **ENet** is cross-platform reliable UDP networking library written in **C** and **ENet.Managed** is an unofficial, managed wrapper for **ENet** available for **.NET** and it supports specific set of platforms. You can checkout ENet's repo **[here][enet-repo]**.
 
