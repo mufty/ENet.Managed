@@ -13,6 +13,8 @@
     <!--CA2101 warns us to specifiy string encoding for every P\Invoke definition which I find it annoying-->
     <!--CA1063 warns us to implement IDisposable correctly-->
     <NoWarn>CS1591,CA2101,CA1063</NoWarn>
+
+    <PackageId>Sernato.ENet.Managed</PackageId>
     
     <!--Nuget package properties-->
     <Authors>Moien007</Authors>
